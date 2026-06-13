@@ -51,8 +51,8 @@ jobs:
         
     - name: Tag and push image to ECR
       run: |
-        docker tag nodejs-random-color:latest ${{ env.ECR_REGISTRY }}/${{ env.ECR_REPOSITORY }}:${{ inputs.version }}
-        docker push ${{ env.ECR_REGISTRY }}/${{ env.ECR_REPOSITORY }}:${{ inputs.version }}
+       docker tag nodejs-random-color:latest 378595784342.dkr.ecr.ap-southeast-1.amazonaws.com/nodejs-random-color:latest
+        docker push 378595784342.dkr.ecr.ap-southeast-1.amazonaws.com/nodejs-random-color:latest
         
     - name: Output image URI
       run: |
