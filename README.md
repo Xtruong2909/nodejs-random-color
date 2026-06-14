@@ -144,4 +144,4 @@ Commit: abc1234 - "Deploy version v1.2.3"
 Review deployment: [View workflow]
 ```
 
-This setup provides a robust approval process for your blue-green deployments while maintaining flexibility and security.
+This setup provides a robust approval process for your blue-green deployments while maintaining flexibility and security.# lab1
